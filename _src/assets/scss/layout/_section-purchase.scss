@@ -26,7 +26,7 @@
     line-height: 1.67;
 }
 .button-reasons {
-    @include solid-button;
+    @include solid_button;
     color: $title-font-color;
     background-color: $color-buttons;
     width: 184px;

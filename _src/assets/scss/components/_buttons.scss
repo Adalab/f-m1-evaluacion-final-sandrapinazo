@@ -1,0 +1,19 @@
+@mixin solid_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22.5px;
+    font-size: 20px;
+    font-family: $font-family-text;
+    text-decoration: none;
+    font-weight: 500;
+}
+@mixin round_button {
+    background-color: $title-font-color;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

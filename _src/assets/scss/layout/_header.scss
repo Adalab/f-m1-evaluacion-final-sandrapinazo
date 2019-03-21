@@ -10,6 +10,8 @@
     width: 44px;
     height: 44px;
     background-color: $color-button-menu;
+    border: 0;
+    padding: 0;
 }
 .hero {
     width: 100%;
@@ -21,9 +23,10 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    overflow: hidden;
 }
 .header__tittle {
-    max-width: 290px;
+    max-width: 320px;
     margin: 0;
     padding: 0px 15px 10px;
     font-family: $font-family-title;
@@ -43,12 +46,6 @@
     margin: 45px auto 53px;
     display: block;
     .header__button {
-        background-color: $title-font-color;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include round_button;
     }
 }
