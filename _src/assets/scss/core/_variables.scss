@@ -1,7 +1,15 @@
 $main-font-color: black;
-$tittle-font-color: white;
+$title-font-color: white;
+$plain-font-color: #4a4a4a;
 $color-buttons: #f26002;
 $color-button-menu: #0271bc;
 $color-footerbgc: #304268;
-$font-family-tittle: 'Roboto Slab', serif;
+$font-family-title: 'Roboto Slab', serif;
 $font-family-text: 'Roboto', sans-serif;
+
+@mixin Section-title {
+    font-family: $font-family-title;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
