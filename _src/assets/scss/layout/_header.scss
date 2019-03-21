@@ -2,8 +2,49 @@
     width: 100%;
     height: 100vh;
 }
+.header__menu {
+    position: fixed;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 44px;
+    background-color: $color-button-menu;
+}
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: url('../images/cover.jpg');
+    background: url('../images/cover.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header__tittle {
+    margin: 0;
+    padding: 0px 15px 10px;
+    font-family: $font-family-tittle;
+    color: $tittle-font-color;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.31;
+    text-transform: uppercase;
+}
+.claim {
+    margin: 0;
+    font-family: $font-family-text;
+    color: $tittle-font-color;
+    font-size: 15px;
+}
+.header__button {
+    margin: 45px auto 53px;
+    background-color: $tittle-font-color;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
