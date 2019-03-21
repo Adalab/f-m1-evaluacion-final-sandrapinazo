@@ -4,12 +4,24 @@ $plain-font-color: #4a4a4a;
 $color-buttons: #f26002;
 $color-button-menu: #0271bc;
 $color-footerbgc: #304268;
+$color-purchasebgc: #eff9ff;
 $font-family-title: 'Roboto Slab', serif;
 $font-family-text: 'Roboto', sans-serif;
 
-@mixin Section-title {
+@mixin section-title {
     font-family: $font-family-title;
     font-size: 24px;
     font-weight: bold;
     margin: 0;
+}
+
+@mixin solid_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22.5px;
+    font-size: 20px;
+    font-family: $font-family-text;
+    text-decoration: none;
+    font-weight: 500;
 }
