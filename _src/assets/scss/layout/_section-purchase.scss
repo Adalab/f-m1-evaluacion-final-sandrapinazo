@@ -5,6 +5,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media all and (min-width:768px) {
+        padding: 30px 39px 45px;
+        height: 397px;
+    }
 }
 .purchase__list {
     display: inline-block;
@@ -12,18 +16,34 @@
     list-style-type: none;
     padding: 0;
     text-align: center;
+    @media all and (min-width:768px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 27.7px;
+    }
 }
 .list__title {
     margin:0;
     font-family: $font-family-title;
     font-weight: bold;
     font-size: 18px;
+    @media all and (min-width:768px) {
+        font-size: 24px;
+        line-height: 1.25;
+    }
 }
 .list__text {
     margin: 0 0 45px;
     max-width: 180px;
+    font-family: $font-family-text;
     font-size: 18px;
     line-height: 1.67;
+    @media all and (min-width:768px) {
+        max-width: 212px;
+        margin: 14px 0 60px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
 }
 .button-reasons {
     @include solid_button;
@@ -31,4 +51,7 @@
     background-color: $color-buttons;
     width: 184px;
     height: 45px;
+    @media all and (min-width:768px) {
+        width: 210px;
+    }
 }
