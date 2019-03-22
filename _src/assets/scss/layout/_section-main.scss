@@ -5,12 +5,21 @@
         height: 330px;
         padding: 30px 39px 0;
     }
+    @media all and (min-width:1280px) {
+        height: 360px;
+        padding: 60px 275px 0;
+    }
 }
 .small-text {
+    font-family: $font-family-text;
     color: #8ccbea;
     font-size: 14px;
     line-height: 2.14;
     text-transform: capitalize;
+    @media all and (min-width:1280px) {
+        font-size: 16px;
+        line-height: 1.88;
+    }
 }
 .section__title {
     @include section-title;
@@ -36,5 +45,8 @@
     @include solid_button;
     @media all and (min-width:768px) {
         width: 91px;
+    }
+    @media all and (min-width:1280px) {
+        width: 160px;        
     }
 }
