@@ -21,20 +21,32 @@
     font-family: $font-family-title;
     color: $title-font-color;
     font-size: 42px;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 1.31;
     text-transform: uppercase;
+    @media all and (min-width:768px){
+        max-width: 700px;
+        font-size: 80px;
+        line-height: 1.33;
+        padding-bottom: 20px;
+    }
 }
 .claim {
     margin: 0;
     font-family: $font-family-text;
     color: $title-font-color;
     font-size: 15px;
+    @media all and (min-width:768px){
+        font-size: 24px;
+    }
 }
 .header__link {
     margin: 45px auto 53px;
     display: block;
     .header__button {
         @include round_button;
+    }
+    @media all and (min-width:768px){
+        margin: 30px auto 45px;
     }
 }
