@@ -57,6 +57,7 @@
 }
 .button-reasons {
     @include solid_button;
+    @include button_transition;
     color: $title-font-color;
     background-color: $color-buttons;
     width: 184px;
@@ -66,10 +67,5 @@
     }
     @media all and (min-width:1280px) {
         widows: 255px;
-    }
-    transition: transform box-shadow ease-in-out 1s;
-    &:hover {
-        transform: scale(1.1);
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     }
 }

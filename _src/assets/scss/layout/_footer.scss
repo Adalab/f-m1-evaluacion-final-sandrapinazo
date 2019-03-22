@@ -23,11 +23,15 @@
     position: relative;
     bottom: 22px;
     margin-bottom: 15px;
+    overflow: hidden;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     @media all and (min-width:768px) {
         grid-area: center;
         bottom: 67px;
         margin: 0 auto;
+    }
+    &:hover .button__arrow{
+        @include button_animation;
     }
 }
 .footer__list {
