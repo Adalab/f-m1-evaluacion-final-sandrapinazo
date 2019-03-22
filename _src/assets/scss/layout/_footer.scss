@@ -60,6 +60,10 @@
     line-height: 1.88;
     text-decoration: none;
 }
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
 .footer__text {
     margin: 0;
     font-family: $font-family-text;
