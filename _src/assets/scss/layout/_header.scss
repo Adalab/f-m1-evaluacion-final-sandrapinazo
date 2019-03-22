@@ -46,20 +46,16 @@
         font-size: 24px;
     }
 }
-.header__link {
+.header__button {
+    @include round_button;
     margin: 45px auto 53px;
-    display: block;
-    .header__button {
-        @include round_button;
+    &:hover .button__arrow{
+        @include button_animation;
     }
-    @media all and (min-width:768px){
+    @media all and (min-width:768px) {
         margin: 30px auto 45px;
     }
     @media all and (min-width:1280px) {
         margin-bottom: 13px;
-    }
-    &:hover .button__arrow{
-        @include button_animation;
-        animation-direction: reverse;
     }
 }

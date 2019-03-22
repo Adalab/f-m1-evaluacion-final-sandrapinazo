@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     @media all and (min-width:768px)  {
-        align-items: flex-start;
+        align-items: start;
         height: 240px;
         padding: 45px 39px;
         display: grid;
@@ -23,7 +23,6 @@
     position: relative;
     bottom: 22px;
     margin-bottom: 15px;
-    overflow: hidden;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     @media all and (min-width:768px) {
         grid-area: center;
