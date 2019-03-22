@@ -7,6 +7,7 @@
     font-family: $font-family-text;
     text-decoration: none;
     font-weight: 500;
+    line-height: 2.25;
 }
 @mixin round_button {
     background-color: $title-font-color;

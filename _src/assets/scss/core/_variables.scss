@@ -13,4 +13,9 @@ $font-family-text: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: bold;
     margin: 0;
+    line-height: 1.25;
+    @media all and (min-width:768px) {
+        font-size: 26px;
+        line-height: 1.73;
+    }
 }
