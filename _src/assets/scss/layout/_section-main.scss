@@ -1,3 +1,20 @@
+.new-section{
+    padding: 30px 0 45px;
+    background-color: $color-buttons;
+    color: $title-font-color;
+    text-align: center;
+     @media all and (min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 20px 45px;
+     }
+     @media all and (min-width: 1280px) {
+         background-color: $color-button-menu;
+     }
+}
+.new-link {
+    color: $title-font-color;
+}
 .section_main {
     padding: 30px 15px 45px;
     @media all and (min-width:768px) {
